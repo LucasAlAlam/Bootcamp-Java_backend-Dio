@@ -9,6 +9,7 @@ public class App {
         Scanner input = new Scanner(System.in);
         nomeController.createNome(input.nextLine());
         agenciaController.createAgencia(input.nextInt());
+        numeroController.createNumero(input.nextLine());
         
         input.close();
     }

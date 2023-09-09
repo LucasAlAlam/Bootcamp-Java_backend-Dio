@@ -3,7 +3,7 @@ package Model;
 public class infoModel {
     private String nome = new String();
     private int agencia;
-    private int numero;
+    private String numero = new String();
     private double saldo;
 
     public String getNome() {
@@ -21,10 +21,10 @@ public class infoModel {
         this.agencia = agencia;
     }
 
-    public int getNumero() {
+    public String getNumero() {
         return numero;
     }
-    public void setNumero(int numero) {
+    public void setNumero(String numero) {
         this.numero = numero;
     }
 
