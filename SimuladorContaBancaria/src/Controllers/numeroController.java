@@ -15,6 +15,10 @@ public class numeroController {
         }
     }
 
+    public static String showNumero () {
+        return data.getNumero();
+    }
+
     private static void validacaoNumero(String numero) throws FormatoNumeroException{
         if (numero.length() != 10 ) {
             throw new FormatoNumeroException("Confira se algum número não está faltando");
