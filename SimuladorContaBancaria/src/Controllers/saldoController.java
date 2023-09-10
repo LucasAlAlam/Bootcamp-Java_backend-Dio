@@ -15,7 +15,7 @@ public class saldoController {
         }
     }
 
-    public static double showNumero () {
+    public static double showSaldo () {
         return data.getSaldo();
     }
 
