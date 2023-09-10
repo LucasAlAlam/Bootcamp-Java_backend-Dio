@@ -1,6 +1,5 @@
 package Controllers;
-
-import Exceptions.FormatoNumeroException;
+import Exceptions.*;
 import Model.infoModel;
 
 public class numeroController {
@@ -20,6 +19,7 @@ public class numeroController {
     }
 
     private static void validacaoNumero(String numero) throws FormatoNumeroException{
+        System.out.println(numero);
         if (numero.length() != 10 ) {
             throw new FormatoNumeroException("Confira se algum número não está faltando");
         }
