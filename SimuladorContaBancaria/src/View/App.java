@@ -12,6 +12,8 @@ public class App {
         input.nextLine(); //Limpeza de buffer
         numeroController.createNumero(input.nextLine());
         saldoController.createSaldo(input.nextDouble());
+
+        System.out.println("Olá "+nomeController.showNome()+". Sua conta de número "+numeroController.showNumero()+" na agência "+agenciaController.showAgencia()+" tem um saldo equivalente a R$"+saldoController.showSaldo()+".");
         input.close();
     }
 }
