@@ -19,7 +19,6 @@ public class nomeController {
     }
 
 private static void validacaoNome(String nome) throws FormatoNomeException {
-    System.out.println(nome.length());
         if (nome.length() <= 2) {
             throw new FormatoNomeException("Insira um nome válido");
         }
