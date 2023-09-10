@@ -16,7 +16,7 @@ public class agenciaController {
     }
 
     private static void validacaoAgencia(int agencia) throws FormatoAgenciaException {
-        if (agencia<1000 && agencia>9999) {
+        if (agencia<1000 || agencia>9999) {
             throw new FormatoAgenciaException("Número de agência inválido");
         }
     }
